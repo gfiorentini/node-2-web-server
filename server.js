@@ -7,7 +7,6 @@ const fs = require('fs');
 // setted up by huroku
 const port = process.env.PORT  || 3000 ;
 
-
 var app = express();
 
 hbs.registerPartials(__dirname + "/views/partials");
@@ -30,7 +29,7 @@ app.use( (req, res, next) => {
 });
 
 // app.use( (req, res, next ) => {
-//     res.render('maintenance.hbs');
+//     res.render('maintenance.githbs');
 // });
 
 //
